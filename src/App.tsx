@@ -27,7 +27,7 @@ const App: React.FC = () => {
       alt: "Imagem 2",
     },
     {
-      url: "/foto_03_PageLove.png",
+      url: "public/foto_03_PageLove.png",
       alt: "Imagem 3",
     },
   ]
