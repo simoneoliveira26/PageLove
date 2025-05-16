@@ -18,16 +18,16 @@ const App: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState<number>(0)
   const slides = [
     {
-      url: "/src/assets/Foto_01_PageLove.jpeg",
+      url: "src/assets/Foto_01_PageLove.jpeg",
       alt: "Imagem 1",
     }
     ,
     {
-      url: "/src/assets/foto_02_PageLove.png",
+      url: "src/assets/foto_02_PageLove.png",
       alt: "Imagem 2",
     },
     {
-      url: "/src/assets/foto_03_PageLove.png",
+      url: "src/assets/foto_03_PageLove.png",
       alt: "Imagem 3",
     },
   ]
