@@ -96,7 +96,7 @@ const App: React.FC = () => {
 
   return (
     <div className="app-container">
-      <h1 className="app-title">Para meu amor</h1>
+      <h1 className="app-title">Para meu amor!💖💖</h1>
 
       {/* Player de Música */}
       <div className="card">
