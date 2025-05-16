@@ -18,7 +18,7 @@ const App: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState<number>(0)
   const slides = [
     {
-      url: "/Foto_01_PageLove.jpeg",
+      url: "Foto_01_PageLove.jpeg",
       alt: "Imagem 1",
     }
     ,
@@ -27,7 +27,7 @@ const App: React.FC = () => {
       alt: "Imagem 2",
     },
     {
-      url: "/foto_03_PageLove.png",
+      url: "foto_03_PageLove.png",
       alt: "Imagem 3",
     },
   ]
@@ -108,7 +108,7 @@ const App: React.FC = () => {
             onTimeUpdate={handleTimeUpdate}
             onLoadedMetadata={handleLoadedMetadata}
             className="hidden"
-            src="/public/Roberta Campos - Mundo Inteiro.mp3"
+            src="Roberta Campos - Mundo Inteiro.mp3"
           />
 
           <div className="player-controls">
